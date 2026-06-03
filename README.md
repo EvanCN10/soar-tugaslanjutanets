@@ -423,3 +423,17 @@ Berdasarkan hasil implementasi dan pengujian:
 6. Konsep SOAR berhasil diterapkan melalui integrasi deteksi, analisis, dan respons otomatis terhadap ancaman keamanan.
 
 Implementasi ini menunjukkan bahwa Wazuh tidak hanya berfungsi sebagai alat monitoring, tetapi juga sebagai solusi otomatisasi respons insiden yang efektif dalam lingkungan Security Operations Center (SOC).
+
+---
+
+# 📸 Dokumentasi
+
+|Foto|Keterangan|
+|---|---|
+|![webapp](src/Webapp_Running)|Webbapp still running before the attack|
+|![attacking](src/Attacking_Failed)|Attacking the webbapp then failed due to active response|
+|![dashboard](src/Dashboard)|Dashboard after the attack|
+|![DDoS](src/DDoS_Detected)|DDoS detected in the Dashboard|
+|![active](src/IP_Dropped)|IP attacker dropped by active response|
+|![alerts](src/Alerts)|The alerts that comes out when the attack happens|
+|![access](src/Cannot_Access)|The Attacker cannot access the webapp after the drop|
