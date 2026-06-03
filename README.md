@@ -1,6 +1,6 @@
 # Implementasi SOAR Menggunakan Wazuh untuk Deteksi dan Mitigasi Serangan DDoS
 
-# 👥 Anggota Kelompok
+# 👥 Anggota Kelompok 10
 
 | Nama | NRP |
 |--------|--------|
