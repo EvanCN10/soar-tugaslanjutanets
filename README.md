@@ -430,10 +430,10 @@ Implementasi ini menunjukkan bahwa Wazuh tidak hanya berfungsi sebagai alat moni
 
 |Foto|Keterangan|
 |---|---|
-|![webapp](src/Webapp_Running)|Webbapp still running before the attack|
-|![attacking](src/Attacking_Failed)|Attacking the webbapp then failed due to active response|
-|![dashboard](src/Dashboard)|Dashboard after the attack|
-|![DDoS](src/DDoS_Detected)|DDoS detected in the Dashboard|
-|![active](src/IP_Dropped)|IP attacker dropped by active response|
-|![alerts](src/Alerts)|The alerts that comes out when the attack happens|
-|![access](src/Cannot_Access)|The Attacker cannot access the webapp after the drop|
+|![webapp](src/Webapp_Running.png)|Webbapp still running before the attack|
+|![attacking](src/Attacking_Failed.png)|Attacking the webbapp then failed due to active response|
+|![dashboard](src/Dashboard.png)|Dashboard after the attack|
+|![DDoS](src/DDoS_Detected.png)|DDoS detected in the Dashboard|
+|![active](src/IP_Dropped.png)|IP attacker dropped by active response|
+|![alerts](src/Alerts.png)|The alerts that comes out when the attack happens|
+|![access](src/Cannot_Access.png)|The Attacker cannot access the webapp after the drop|
