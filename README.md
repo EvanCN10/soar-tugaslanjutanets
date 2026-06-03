@@ -436,4 +436,4 @@ Implementasi ini menunjukkan bahwa Wazuh tidak hanya berfungsi sebagai alat moni
 |![DDoS](src/DDoS_Detected.png)|DDoS detected in the Dashboard|
 |![active](src/IP_Dropped.png)|IP attacker dropped by active response|
 |![alerts](src/Alerts.png)|The alerts that comes out when the attack happens|
-|![access](src/Cannot_Access.png)|The Attacker cannot access the webapp after the drop|
+|![access](src/Failed_to_connect.png)|The Attacker cannot access the webapp after the drop|
