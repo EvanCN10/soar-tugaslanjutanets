@@ -1,0 +1,33 @@
+<!-- Local rules -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<group name="local,syslog,sshd,">
+  <rule id="100001" level="5">
+    <if_sid>5716</if_sid>
+    <srcip>1.1.1.1</srcip>
+    <description>sshd: authentication failed from IP 1.1.1.1.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+</group>
+
+<group name="nodejs,web,ddos">
+  <rule id="100002" level="3">
+    <decoded_as>json</decoded_as>
+    <description>NodeJS HTTP Request</description>
+    <group>nodejs,http,web</group>
+  </rule>
+
+  <rule id="100003" level="8" frequency="5" timeframe="20">
+    <if_matched_sid>100002</if_matched_sid>
+    <same_srcip />
+    <description>Possible HTTP Flood Activity</description>
+    <group>ddos,http_flood</group>
+  </rule>
+
+  <rule id="100004" level="12" frequency="20" timeframe="20" ignore="60">
+    <if_matched_sid>100002</if_matched_sid>
+    <same_srcip />
+    <description>Severe HTTP Flood / DDoS attack detected</description>
+    <group>ddos,http_flood,severe</group>
+  </rule>
+</group>
